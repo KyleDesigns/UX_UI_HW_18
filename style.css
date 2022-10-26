@@ -4,8 +4,9 @@
 }
 
 .logo {
-    width: 25%; 
+    width: 45%; 
     padding: 0%;
+    padding-left: 10%;
     text-align: center;
 }
 
@@ -19,10 +20,11 @@
 nav {
     /* width: 100%; */
     /* padding: 1%; */
-    background-color: #373738;
+    background-color: #333B50;
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    padding-right: 2.5%;
 }
 
 
@@ -58,5 +60,96 @@ height: 400px;
 }
 
 footer {
-    background-color: #373738;
+    background-color: #0D1526;
 }
+
+h1 {
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+
+.flexContainer {
+    display: flex;
+    width: 70%;
+    gap: 20px;
+    padding: 5%;
+    padding-top: 4%;
+    padding-right: 15%;
+    justify-content: center;
+    padding-left: 15%;
+    padding-bottom: 2%;
+    background-color: #0D1526;
+    background-size: cover;
+}
+
+
+.whitetext {
+    color: white;
+}
+
+h3 { 
+    color: white;
+}
+
+.mySkills {
+    text-align: center;
+}
+
+.workGrid {
+    width: 50%;
+    display: grid;
+    gap: 5%;
+    row-gap: 10%;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: center;
+    padding: 1%;
+    padding-left: 27%;
+    padding-bottom: 5%;
+}
+
+.myWork {
+    text-align: center;
+    justify-content: auto;
+    padding: 5%;
+    padding-left: 7.7%;
+    color: black;
+    height: 1%;
+}
+
+@media screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        gap: 20px;
+        padding: 5%;
+        padding-top: 4%;
+        padding-right: 15%;
+        justify-content: center;
+        padding-left: 15%;
+        padding-bottom: 2%;
+        background-color: #0D1526;
+        background-size: cover;
+    }
+    .workGrid {
+        width: 100%;
+        display: grid;
+        gap: 5%;
+        row-gap: 10%;
+        grid-template-columns: auto auto;
+        align-items: center;
+        align-content: center;
+        padding: 1%;
+        padding-top: 7%;
+        padding-left: 1%;
+        padding-bottom: 7%;
+    }
+    .myWork {
+        text-align: center;
+        padding: 5%;
+        padding-top: 15%;
+        padding-left: 20%;
+        color: black;
+        height: 1%;
+}}
